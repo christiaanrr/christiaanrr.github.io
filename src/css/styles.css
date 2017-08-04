@@ -1,0 +1,54 @@
+/**************************
+NAVBAR
+ **************************/
+.navbar {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+/**************************
+JUMBOTRON
+ **************************/
+
+.jumbotron {
+    padding-bottom: 0px;
+    margin-top: 57px;
+    background: url('../img/dark_wall.png') repeat;
+    color: #fff;
+}
+
+.profile {
+    width: 345px;
+    height: 500px;
+    background: url('../img/christian.jpg') no-repeat;
+}
+
+/**************************
+MEDIA QUERIES
+ **************************/
+
+@media (max-width: 991px) {
+    .jumbotron {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        background-position: 10% 10%;
+    }
+
+    .device {
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        min-height: 60px;
+    }
+
+    .jumbotron {
+        padding-top: 80px;
+        margin-bottom: 32px;
+    }
+    .lead {
+        margin-bottom: 40px;
+    }
+}
