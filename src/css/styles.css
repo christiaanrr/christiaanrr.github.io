@@ -77,9 +77,49 @@ MAIN CONTENT
 FOOTER
  **************************/
 
+body {
+    min-height: 100vh;
+}
+
 footer {
     padding: 10px 0;
 }
+
+/**************************
+PAGE: CONTACT
+ **************************/
+.container.contact {
+    margin-top: 100px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a{
+    display:block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 5px;
+}
+
+.contact-info li.email a {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+}
+
+.contact-info li.facebook a {
+    background-image: url('../img/facebook.png');
+}
+
 
 /**************************
 MEDIA QUERIES
