@@ -1,4 +1,20 @@
 /**************************
+LAYOUT
+ **************************/
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+footer, .wrapper:after {
+    height: 80px;
+}
+/**************************
 NAVBAR
  **************************/
 .navbar {
@@ -77,10 +93,6 @@ MAIN CONTENT
 FOOTER
  **************************/
 
-body {
-    min-height: 100vh;
-}
-
 footer {
     padding: 10px 0;
 }
@@ -88,6 +100,13 @@ footer {
 /**************************
 PAGE: CONTACT
  **************************/
+.device {
+    width: 260px;
+    height: 400px;
+    background: url('../img/device.png') no-repeat;
+    margin-bottom: 50px;
+}
+
 .container.contact {
     margin-top: 100px;
 }
@@ -142,6 +161,9 @@ MEDIA QUERIES
     }
     .ft p {
         width: auto;
+    }
+    .device {
+        margin-top: 28px;
     }
 }
 
