@@ -1,9 +1,16 @@
 /**************************
 LAYOUT
  **************************/
+html,
+body {
+    height: 100%;
+}
 .wrapper {
     min-height: 100%;
-    margin-bottom: -40px;
+    height: auto !important;
+    /* Negative indent footer by its height */
+    margin: 0 auto -80px;
+    /* Pad bottom by footer height */
 }
 
 .wrapper:after {
@@ -31,7 +38,7 @@ JUMBOTRON
  **************************/
 
 .jumbotron {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     margin-top: 57px;
     background: url('../img/dark_wall.png') repeat;
     color: #fff;
@@ -158,7 +165,13 @@ PAGE: PORTFOLIO
     margin-bottom: 50px;
 }
 
+.project-img {
+    margin: 20px 0 10px 0;
+}
 
+.project-heading {
+    margin-bottom: 20px;
+}
 /**************************
 MEDIA QUERIES
  **************************/
@@ -187,7 +200,11 @@ MEDIA QUERIES
     }
 
     .folder {
-        margin-top: 0px;
+        margin-top: 0;
+    }
+
+    .project-img {
+        width: 220px;
     }
 
 }
@@ -207,10 +224,28 @@ MEDIA QUERIES
     .ft {
         margin-bottom: 16px;
     }
+    .project-img {
+        padding: 0 5px;
+        width: 170px;
+    }
+    .project-caption {
+        padding: 0 5px;
+        font-size: 1.13em;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .greeting {
         font-size: 3.5em;
+    }
+    .project-img {
+        width: 290px;
+        padding: 0;
+        margin: 0;
+    }
+    .project-caption {
+        text-align: center;
+        padding: 0 5px;
+        font-size: 1.5em;
     }
 }
