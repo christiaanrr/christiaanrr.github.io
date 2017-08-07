@@ -197,12 +197,17 @@ PAGE: PORTFOLIO
     margin-top: 20px;
 }
 
+.ss-journey,
+.ss-wifi,
+.ss-nordstrom {
+    height: 500px;
+}
+
 
 
 /**************************
 MEDIA QUERIES
  **************************/
-
 @media (max-width: 1199px) {
     .ft {
         padding-top: 25px;
@@ -270,6 +275,22 @@ MEDIA QUERIES
     .ss-website {
         height: 390px;
     }
+
+    .ss-wifi {
+        height: 315px;
+    }
+
+    .ss-nordstrom {
+        height: 387px;
+    }
+
+    .yt-video {
+        display: none;
+    }
+
+    .yt-link {
+        display: block !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -291,5 +312,25 @@ MEDIA QUERIES
 
     .list-portfolio {
         margin-top: 20px;
+    }
+
+    .yt-video {
+        display: block;
+    }
+
+
+    .ss-wifi,
+    .ss-nordstrom {
+        height: 500px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .yt-video {
+        display: none;
+    }
+
+    .yt-link {
+        display: block !important;
     }
 }
