@@ -199,7 +199,8 @@ PAGE: PORTFOLIO
 
 .ss-journey,
 .ss-wifi,
-.ss-nordstrom {
+.ss-nordstrom,
+.ss-buddy {
     height: 500px;
 }
 
@@ -280,7 +281,8 @@ MEDIA QUERIES
         height: 315px;
     }
 
-    .ss-nordstrom {
+    .ss-nordstrom,
+    .ss-buddy {
         height: 387px;
     }
 
@@ -320,8 +322,11 @@ MEDIA QUERIES
 
 
     .ss-wifi,
-    .ss-nordstrom {
-        height: 500px !important;
+    .ss-nordstrom,
+    .ss-buddy,
+    .ss-journey,
+    .ss-website {
+        height: 400px !important;
     }
 }
 
