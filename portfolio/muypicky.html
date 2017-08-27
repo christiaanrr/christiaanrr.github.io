@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MuyPicky</title>
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../src/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-104093098-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+<div class="wrapper bg-faded">
+    <!--------NAVBAR -------->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">Christian Rodriguez</a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/christiaanrr" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/christian-rodriguez-967575124/" target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!----- END NAVBAR ------>
+    <!----- MAIN CONTENT ---->
+    <div class="container website">
+        <a href="../portfolio.html"><h6 class="back-link">&hookleftarrow; Back to portfolio page</h6></a>
+        <hr/>
+        <h2 class="text-lg-left text-center project-heading">MuyPicky - powered by Django (Tutorial Aided)</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="../src/img/ss-muypicky.png" alt="Buddy the Workout Helper" class="img-fluid rounded ss-buddy d-block mx-auto"/>
+            </div>
+            <div class="col-sm-6">
+                <ul class="list-group list-portfolio">
+                    <li class="list-group-item"><span class="font-weight-bold">Date Completed&colon;&nbsp;</span>August 2017</li>
+                    <li class="list-group-item"><span class="font-weight-bold">Skills&colon;&nbsp;</span>Python, Django, Web Development,
+                    MVC Framework, Databases</li>
+                    <li class="list-group-item"><span class="font-weight-bold">Why&colon;&nbsp;</span>I recently completed MIT's very
+                    popular MOOC (MIT 6.00.1x) and wanted to apply new skills that I've learned to web development. As I've
+                    said before, I'm not really fond of the front-end aspect as much as the back-end aspect of web development.
+                    The super powerful Django framework allowed me to create a backend service for a website and allowed me to
+                    practice my newly taught Python skills.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <li class="list-group portfolio-description">
+                    <li class="list-group-item"><span class="font-weight-bold">Description&colon;&nbsp;</span>
+                        MuyPicky is a website that lets users sign up and create an account in order to post their favorite
+                    menu item at a specific restaurant. Users can sign up, login, and add restaurants and menu items in order
+                    for other users to see. It's a great way to showcase your favorite restaurants and menu items. As with
+                    all my projects, the code is open-sourced on my github (learn-django2). This project was tutorial aided.
+                    Although I would say that it's more for intermediate-advanced users of Django, it was still a great project.
+                    The project tutorial can be found on youtube if you search "try django 1.11" by a user named
+                    CodingEntrepeneurs. Through his tutorial, I have learned the basics of how to use Django and its
+                    capabilities. I've learned how databases work, how URLs work, how different HTTP responses work, and
+                    much more! After finishing this projet, I will pursue another simple "To Do" application using Django.
+                    This time, I will make it from scratch (with the help of google and stackoverflow) in order to showcase
+                    that I've truly understood the basics of the Django framework.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--- END MAIN CONTENT -->
+</div>
+<!------ FOOTER --------->
+<footer class="bg-faded mt-5">
+    <div class="container-fluid py-3">
+        <div class="row justify-content-center">
+            &copy; Christian Rodriguez 2017
+        </div>
+    </div>
+</footer>
+<!---- END FOOTER ------->
+<script src="../src/js/tether.min.js"></script>
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
+</body>
+</html>
