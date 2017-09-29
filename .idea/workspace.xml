@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac66cf15-ab86-48d4-9ac4-f91339207ffc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/other/Resume.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -20,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="60" column="77" lean-forward="false" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
+            <state relative-caret-position="18">
+              <caret line="60" column="109" lean-forward="false" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -50,7 +51,7 @@
       <file leaf-file-name="donteverforget.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/donteverforget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="990">
               <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
               <folding />
             </state>
@@ -112,7 +113,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="225" />
     <option name="y" value="28" />
     <option name="width" value="1918" />
@@ -135,6 +136,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,6 +170,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/other" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/js" />
@@ -234,15 +236,16 @@
       <workItem from="1506670183086" duration="38000" />
       <workItem from="1506670232409" duration="379000" />
       <workItem from="1506708372246" duration="263000" />
+      <workItem from="1506709714731" duration="142000" />
+      <workItem from="1506710178974" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51588000" />
+    <option name="totallyTimeSpent" value="51835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="28" width="1922" height="1092" extended-state="7" />
-    <editor active="true" />
+    <frame x="225" y="28" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -599,7 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/donteverforget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="990">
           <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
           <folding />
         </state>
@@ -607,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="60" column="77" lean-forward="false" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
+        <state relative-caret-position="18">
+          <caret line="60" column="109" lean-forward="false" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
           <folding />
         </state>
       </provider>
